@@ -1,0 +1,21 @@
+type: intent
+name: Weather
+slots:
+  - name: city
+    entity: snips/city
+utterances:  
+  - Can you please tell me the weather of [city](Tehran).
+  - How’s the weather in [city](Ottawa).
+  - How is the weather like in [city](New York)?
+  - How is the weather in [city](Barcelona)?
+  - What is the weather like in [city](Berlin)?
+  - What is the temperature today in [city](Philadelphia)?
+  - In [city](Utrecht), how hot is it today?
+  - How many degrees is it today in [city](Prague)?
+  - I want to know the weather of [city](Tabriz).
+  - Tell me [city](Ottawa) weather.
+  - Weather in [city](Eindhoven) right now. 
+  - I am thinking of going for a run today, I wanna know how the weather is in [city](Tehran). 
+  - How is the weather today? Is it nice in [city](Leiden)?
+  - The weather of [city](Shiraz) today.
+  

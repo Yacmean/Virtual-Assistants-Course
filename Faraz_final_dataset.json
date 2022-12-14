@@ -1,0 +1,222 @@
+{
+  "entities": {
+    "snips/city": {}
+  },
+  "intents": {
+    "Weather": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Can you please tell me the weather of "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Tehran"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How\u2019s the weather in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Ottawa"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How is the weather like in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "New York"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How is the weather in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Barcelona"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the weather like in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Berlin"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the temperature today in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Philadelphia"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "In "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Utrecht"
+            },
+            {
+              "text": ", how hot is it today?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How many degrees is it today in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Prague"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I want to know the weather of "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Tabriz"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Ottawa"
+            },
+            {
+              "text": " weather."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Weather in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Eindhoven"
+            },
+            {
+              "text": " right now."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I am thinking of going for a run today, I wanna know how the weather is in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Tehran"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How is the weather today? Is it nice in "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Leiden"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "The weather of "
+            },
+            {
+              "entity": "snips/city",
+              "slot_name": "city",
+              "text": "Shiraz"
+            },
+            {
+              "text": " today."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "en"
+}

@@ -1,0 +1,25 @@
+{
+    "type": "intent",
+    "name": "checkWeather",
+    "slots": [
+        {
+            "name": "whichCity",
+            "entity": "snips/city"
+        },
+        {
+            "name": "when",
+            "entity": "snips/datetime"
+        }
+    ],
+    "utterances": [
+        "Can you please tell me the weather of [whichCity](Tehran).",
+        "How’s the weather [when](tomorrow) in [whichCity](Ottawa).",
+        "What is the weather like in [whichCity](New York) [when](next Friday)?",
+        "How is the weather in [whichCity](Barcelona) [when](on April 15th)?",
+        "What is the weather like in [whichCity](Seattle) [when](right now)?",
+        "What is the [when](current) weather like in [whichCity](Berlin)?",
+        "What is the temperature [when](today) in [whichCity](Philadelphia)?",
+        "In [whichCity](Utrecht), how hot is it [when](on wednesday)?",
+        "How many degrees are there [when](now) in [whichCity](Prague)?"
+    ]
+}
